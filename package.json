@@ -7,16 +7,16 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dan-nl/generator.git"
+    "url": "git+https://github.com/dan-nl/generator-travis.git"
   },
   "keywords": [
     "yeoman-generator",
     "generator"
   ],
   "bugs": {
-    "url": "https://github.com/dan-nl/generator/issues"
+    "url": "https://github.com/dan-nl/generator-travis/issues"
   },
-  "homepage": "https://github.com/dan-nl/generator#readme",
+  "homepage": "https://github.com/dan-nl/generator-travis#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
