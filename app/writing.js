@@ -6,9 +6,13 @@
  * @returns {undefined}
  */
 function writing() {
+  if ( !this.options.PromptAnswers.get( 'create-travis' ) ) {
+    return;
+  }
+
   this.fs.copyTpl(
     this.templatePath( '.travis.yml' ),
-    this.destinationPath( './.travis.yml' )
+    this.destinationPath( '.travis.yml' )
   );
 }
 
